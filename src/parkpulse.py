@@ -24,6 +24,17 @@ Attraction data:
 # - Which names follow snake_case?
 # - Which value should be represented as a boolean?
 
+attraction_name = 'Sky Loop'
+max_capacity = 24
+current_rider = 20
+open = True
+utilization = current_rider / max_capacity
+
+print(f"Ride: {attraction_name}")
+print(f"Open: {open}")
+print(f"Capacity: {current_rider}")
+print(f"Utilization: {utilization:.2%}")
+print(f"Utilization: {utilization}")
 
 # TODO 2:
 # Calculate the attraction's utilization.
